@@ -20,7 +20,7 @@ my $N = 2;
 sub Not { print "not " }
 sub OK  { print "ok ", $N++, "\n" }
 
-sub Identical($$)
+sub Identical
 {
     not defined $_[0] and not defined $_[1] and return 1;
         defined $_[0] and     defined $_[1] or  return 0;

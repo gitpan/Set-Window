@@ -1,4 +1,4 @@
-Set::Window VERSION 1.00 - Manages an interval on the integer line
+Set::Window VERSION 1.01 - Manages an interval on the integer line
 
 DESCRIPTION
 A Set::Window object represents a window on the integer line; 
@@ -9,12 +9,12 @@ for obtaining information about windows,
 and for performing some simple set operations on windows.
 
 COPYRIGHT
-Copyright (c) 1996, 1997 Steven McDougall.  All rights reserved.  This
-module is free software; you can redistribute it and/or modify it
+Copyright (c) 1996-2002 by Steven McDougall.  
+This module is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
 PREREQUISITES
-Perl5.003
+Perl 5.6.0
 Exporter
 
 HOW TO BUILD AND INSTALL

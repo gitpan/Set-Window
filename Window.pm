@@ -1,17 +1,17 @@
-# Copyright (c) 1996, 1997 Steven McDougall.  All rights reserved.  This
-# module is free software; you can redistribute it and/or modify it
+# Copyright 1996-2002 by Steven McDougall.  
+# This module is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 
 package Set::Window;
 
+use 5.6.0;
 use strict;
 use vars qw($VERSION @ISA);
 
 require Exporter;
-require 5.003;
 
 @ISA     = qw(Exporter);
-$VERSION = '1.00';
+$VERSION = '1.01';
 
 
 sub new_lr
@@ -223,7 +223,7 @@ Set::Window - Manages an interval on the integer line
 
 =head1 REQUIRES
 
-Perl 5.003, Exporter
+Perl 5.6.0, Exporter
 
 =head1 EXPORTS
 
@@ -449,7 +449,7 @@ Steven McDougall, swmcd@world.std.com
 
 =head1 COPYRIGHT
 
-Copyright (c) 1996, 1997 Steven McDougall. 
+Copyright 1996-200 by Steven McDougall. 
 All rights reserved.
 This module is free software; 
 you can redistribute it and/or modify it under the same terms as Perl itself.
